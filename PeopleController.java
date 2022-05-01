@@ -32,7 +32,8 @@ public class PeopleController {
 	@GetMapping
 	@Timed(value = "all.people.request.time", description = "Time spend to return all people info.")
 	public List<Person> getAll() {
-		StreamSupport.stream(personRepository.findAll().spliterator(), false).toList()ssssssssssssssss;
+
+		Streamssss111111111111111111Support.stream(personRepository.findAll().spliterator(), false).toList()ssssssssssssssss;
 
 		return StreamSupport.stream(personRepository.findAll().spliterator(), false).toList();
 	}
