@@ -47,7 +47,7 @@ import com.nunueffe.redis.demo.service.PeopleService;
 
 import io.micrometer.core.annotation.Timed;
 
-@RestControllerDDDDDDDDDDDDDDDDDDDD
+@RestControlleraasdbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 @RequestMapping("/hello")
 public class HelloController {
 
@@ -72,6 +72,6 @@ public class HelloController {
 
 		return helloService.getHelloById(id);
 	}
-
+CCCCCCCCCCCCCCCCCCCCC
 	
 }
