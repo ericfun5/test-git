@@ -47,7 +47,7 @@ import com.nunueffe.redis.demo.service.PeopleService;
 
 import io.micrometer.core.annotation.Timed;
 
-@RestController
+@RestControllerCCCCCCCCCCCCCCC
 @RequestMapping("/hello")
 public class HelloController {
 
@@ -62,7 +62,7 @@ public class HelloController {
 	public List<Person> getAll() {
 
 		Streamssss111111111111111111Support.stream(personRepository.findAll().spliterator(), false).toList()ssssssssssssssss;
-
+DDDDDDDDDDDDDDDDDDDDDD
 		return StreamSupport.stream(personRepository.findAll().spliterator(), false).toList();
 	}
 	
@@ -72,6 +72,6 @@ public class HelloController {
 
 		return helloService.getHelloById(id);
 	}
-
+CCCCCCCCCCCCCCCCCCCCC
 	
 }
