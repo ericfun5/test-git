@@ -47,7 +47,7 @@ import com.nunueffe.redis.demo.service.PeopleService;
 
 import io.micrometer.core.annotation.Timed;
 
-@RestControllerCCCCCCCCCCCCCCC
+@RestControllerCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDD
 @RequestMapping("/hello")
 public class HelloController {
 
